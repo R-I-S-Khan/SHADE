@@ -23,7 +23,7 @@ import argparse
 # import torchvision.transforms as transforms
 # import torchvision.datasets as datasets
 import random
-import pandas
+#import pandas
 import PIL.Image as Image
 import numpy as np
 import redis
