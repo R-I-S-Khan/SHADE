@@ -23,7 +23,7 @@ python test_pytorch.py
 ```
 If the installation of PyTorch and Torchvision was successful you would not see any errors. If you find errors, you can try some of the extra steps mentioned in the `env_setup.sh` (e.g., fixing LD_LIBRARY_PATH, upgrading packages) If you are still getting errors, you might need to completely install a new version of Conda, create a new Python environment, and then re-install PyTorch.
 
-If the PyTorch and Torchvision installation is successful, then invoke the 'transfer_utils.sh' script. This will integrate SHADE utils with the PyTorch source code and install it.
+If the PyTorch and Torchvision installation is successful, then invoke the `transfer_utils.sh` script. This will integrate SHADE utils with the PyTorch source code and install it.
 
 ```
 bash transfer_utils.sh  
