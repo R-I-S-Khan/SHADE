@@ -23,7 +23,9 @@ installConda conda
 # create SHADE conda env
 conda init bash
 . ~/.bashrc
-#conda env create -f shade_conda.yaml # install shade_conda dependencies
+#install shade_conda dependencies. We encourage installing a separate environment for
+#your machine as packages also have several dependencies on the specific machine configurations.
+#conda env create -f shade_conda.yaml 
 yes Y | conda create --name shade_conda python=3.8
 conda activate shade_conda
 pip install redis-py-cluster
