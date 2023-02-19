@@ -99,7 +99,7 @@ Feel free to play around with different models, datasets, replication factor, wo
 Please read and/or cite as appropriate to use SHADE.
 
 ```bibtex
-@inproceedings {285774,
+@inproceedings {khanshade2023,
 author = {Redwan Ibne Seraj Khan and Ahmad Hossein Yazdani and Yuqi Fu and Arnab K. Paul and Bo Ji and Xun Jian and Yue Cheng and Ali R. Butt},
 title = {{SHADE}: Enable Fundamental Cacheability for Distributed Deep Learning Training},
 booktitle = {21st USENIX Conference on File and Storage Technologies (FAST 23)},
